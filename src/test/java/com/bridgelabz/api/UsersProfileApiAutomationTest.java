@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class UsersProfileApiAutomationTest extends RestApiAutomationTest
+public class UsersProfileApiAutomationTest extends RestApiAutomationBaseVariablesTest
 {
     @Test
     public void getCurrentUserProfile()
