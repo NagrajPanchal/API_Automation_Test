@@ -1,3 +1,9 @@
+//*******************************************
+//Author Name : Nagraj Panchal
+//Project     : API Automation Test : User Profile
+//Date        : 31/01/2023
+//*******************************************
+
 package com.bridgelabz.api;
 
 import io.restassured.response.Response;
