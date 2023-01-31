@@ -1,12 +1,10 @@
 package com.bridgelabz.api;
 
-import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.given;
 
-public class RestApiAutomationTest
+public class RestApiAutomationBaseVariablesTest
 {
     public String Authorization;
     public static String userId;
